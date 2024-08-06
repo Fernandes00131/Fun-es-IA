@@ -6,14 +6,14 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
-        enunciado: "1",
+        enunciado: "1) Você se encontra no mundo de Terraria e possui vários equipamentos de batalha feitos de prata: uma armadura, uma espada e um arco. A noite chega e você sente uma presença maligna te observando... O Olho de Cthulhu acordou e está vindo em sua direção, o que você faria?",
         alternativas: [
             {
-                texto: "A",
+                texto: "A) Enfrentaria ele.",
                 afirmacao: ""
             },
             {
-                texto: "B",
+                texto: "B) Tentaria fugir mas ficaria encurralado, tendo a luta como única opção.",
                 afirmacao: ""
             }
         ]
