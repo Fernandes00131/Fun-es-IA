@@ -19,53 +19,53 @@ const perguntas = [
         ]
     },
     {
-        enunciado: "2",
+        enunciado: "2) Após derrotar o Olho de Cthulhu, você decide ir para uma caverna no bioma de carmin. Após quebrar três corações no subterrâneo você desperta uma criatura... O Cérebro de Cthulhu acordou! O que você faz?",
         alternativas: [
             {
-                texto: "A",
+                texto: "A) Enfrento ele no subterrâneo.",
                 afirmacao: ""
             },
             {
-                texto: "B",
+                texto: "B) Enfrento ele na superfície.",
                 afirmacao: ""
             }
         ]
     },
     {
-        enunciado: "3",
+        enunciado: "3) Você derrota o Cérebro de Cthulhu e decide explorar o subterrâneo da selva, lá você encontra uma colméia gigantesca. O que você faz?",
         alternativas: [
             {
-                texto: "A",
+                texto: "A) Utilizo uma picareta para entrar na colméia sem grande destruição, mas acabo destruindo uma larva sem querer.",
                 afirmacao: ""
             },
             {
-                texto: "B",
+                texto: "B) Utilizo dinamites, que destrói a larva e grande parte da colméia.",
                 afirmacao: ""
             }
         ]
     },
     {
-        enunciado: "4",
+        enunciado: "4) Com a Larva destruída você desperta uma criatura... A Abelha Rainha acordou! O que você faz?",
         alternativas: [
             {
-                texto: "A",
+                texto: "A) Utilizo as dinamites que me restaram para explodir tudo.",
                 afirmacao: ""
             },
             {
-                texto: "B",
+                texto: "B) Utilizo uma metralhadora tubarão para enfrentá-la.",
                 afirmacao: ""
             }
         ]
     },
     {
-        enunciado: "5",
+        enunciado: "5) A Abelha Rainha foi derrotada! Porém, um exército de goblins está marchando em direção à sua base. O que você faz?",
         alternativas: [
             {
-                texto: "A",
+                texto: "A) Eu intercepto os goblins no meio do caminho e os enfrento.",
                 afirmacao: ""
             },
             {
-                texto: "B",
+                texto: "B) Eu volto para minha base e espero os goblins chegarem.",
                 afirmacao: ""
             }
         ]
@@ -105,7 +105,7 @@ function respostaSelecionada(opcaoSelecionada) {
 }
 
 function mostraResultado() {
-    caixaPerguntas.textContent = "...";
+    caixaPerguntas.textContent = "Fim do Questionário";
     textoResultado.textContent = historiaFinal;
     caixaAlternativas.textContent = "";
 }
